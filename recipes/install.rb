@@ -21,9 +21,9 @@
 # => Shorten Hashes
 wildfly = node['wildfly']
 
-service 'wildfly' do
-  action :nothing
-end
+#service 'wildfly' do
+#  action :nothing
+#end
 
 wildfly 'wildfly' do
   launch_arguments [
